@@ -1,0 +1,19 @@
+{
+  "name": "byte-startel",
+  "version": "2.0.0",
+  "description": "Byte, de digitale trainingsadviseur van Startel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "toets": "node toets/run.js",
+    "vangnet": "node toets/vangnet.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "3.0.2"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
