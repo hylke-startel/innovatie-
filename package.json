@@ -1,0 +1,15 @@
+{
+  "name": "innovatie",
+  "private": true,
+  "description": "Startlaag voor Railway: start Byte vanuit de map byte/",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "3.0.2"
+  }
+}
